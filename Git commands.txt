@@ -1,0 +1,35 @@
+$ git init - sozdanie papki skrutoy, inicializaciya repozitoriya
+
+$ git status - proverka papki na nalichie faylov
+
+$ git add (imya faayla)	- dobavlenie fayla v soxranenie, dobavlenie v index. Changes to be committed.
+
+$ git commit -m" "  - soxranyaem nakoplennnue izmeneniya v fayle. v kovuchki, chto planiruem dobavit
+
+$ git log - proverka soxraneniya, chto soxranili.Spisok "commit"
+commit a787d4dfd0d3d57c14539af80dc3ede45f4f448c  - ynikalnui nomer soxraneniya (16-ti richnoe chislo)
+
+$ q - quit - vuiti
+
+$ vim (imya fayla) - vxod v fayl
+
+$ i - (insert) regim redaktirovaniya, vnosim izmeneniya/
+
+$ Esc :wq - soxranyaem i vuxodim
+
+$ ssh-keygen - sozdanie klucha shufrovaniya dlya obmena dannumi s github
+
+$ ssh-keygen - sozdanie klucha shifrovaniya
+
+$ cat ~/ (adress klucha publichnogo) - dlya vuvoda klucha
+
+$ ~ - znak domashney papki, pyt\
+
+$ git remote -v - proverka porklucheniya ydalennogo repozitoriya
+	-fetch - prosmotr, oznakomitsya
+	-push - zalit izmeneniya na server
+	-pull - ckachat izmeneniya s servera
+$ git push -u origin master - git push - zalit izmeneniya - -u zapomnit, -origin repozitoriy, -master - vetk
+
+git@github.com:Den4ik-Chupikov/New_repositoriy.git
+
